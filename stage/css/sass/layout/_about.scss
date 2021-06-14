@@ -1,0 +1,36 @@
+.about{
+    background-color: #E6E6E6;
+    padding-top:100px;
+    h1{
+        color: #e75b1e;
+        padding-bottom: 10px;
+        font-size: 60px;
+    }
+    h4{
+        padding-bottom: 10px;
+    }
+    p{
+        font-size: 15px;
+        color: #686868;
+        padding-bottom: 20px;
+    }
+    .img3{
+        text-align: center;
+        img{
+            border: 10px solid #fff;
+            border-radius: 50%;
+        }
+    }
+   .img1{
+    position: relative;
+   }
+        .img3{
+            position: relative;
+        }
+        .img2{
+            position: absolute;
+            top:50px;
+            right: 0px;
+        }
+
+    }

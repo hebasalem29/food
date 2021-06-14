@@ -1,0 +1,1 @@
+$(function(){$(window).on("scroll",function(){0==$(window).scrollTop()?($(".navbar").addClass("co"),console.log("hi")):$(".navbar").removeClass("co")})});
