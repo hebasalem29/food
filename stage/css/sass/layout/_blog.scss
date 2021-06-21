@@ -1,4 +1,22 @@
 .blog{
+    .but{
+        width: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        height: 50px;
+        padding: 10px;
+        text-align: center;
+        background-color: #e75b1e;
+        color:#fff;
+        margin: 0 auto !important;
+        a{
+            color: #fff;
+        }
+        &:hover{
+            background-color: transparent;
+            border:1px solid #e75b1e;
+        }
+    }
     padding-bottom: 50px;
     .row{
         
@@ -6,6 +24,7 @@
     padding-top: 100px;
     background:url('../imgs/blog_bg.jpg');
     background-size: cover;
+    background-attachment: fixed;
     h1{
         color: #fff;
         padding-bottom: 50px;
@@ -14,6 +33,12 @@
     .box{
         margin-bottom: 20px;
         display: flex;
+        @media(max-width:500px){
+            display: block;
+            img{
+                width: 100%;
+            }
+        }
       // position: relative;
 
         background-color: #fff;
