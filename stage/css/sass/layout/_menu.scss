@@ -1,35 +1,70 @@
 .menu{
+    padding-top: 100px;
+    h1{
+        color: #e75b1e;
+    }
     background-color: #f5f5f5;
     .fr{
         padding-bottom: 600px;
     }
     .carousel-indicators{
-        background-color: #f5f5f5;
+      //  background-color: #f5f5f5;
        
         top:0;
-        bottom: 377px;
-      //  border-bottom: 1px solid #000;
-        &:after{
-            position: absolute;
-            content: '';
-            width: 150%;
-            border:1px solid #000;
-            left: -150px;
-            top:220px;
+        bottom: 477px;
+      //  left: -200px;
+     &:after{
+         position: absolute;
+         content: '';
+         border: 1px solid #000;
+         width: 150%;
+         bottom: -100px;
+         @media(max-width:700px){
+             bottom: -30px !important;
+     }
+    }
+       
+         
+        .dd{
+            border-bottom: 1px solid #000;
+            padding: 50px;
+            
+            background-color: transparent !important;
+            cursor: pointer;
+            margin: 10px;
+            @media(max-width:700px){
+                h4{
+                    font-size: 15px;
+                }
+            
+                font-size: 18px;
+                width: 100px;
+                height: 100px;
+                padding: 10px;
+            
         }
-        button{
-            padding-right: 50px;
-            padding-left: 50px;
+        
+       // margin: 30px;
+           // white-space: nowrap;
+          // padding-right: 20px;
+          // padding-left: 20px;
             margin: 20px;
             
-            background-color: #f5f5f5;
-           
-            width: auto;
+            background-color: #b8b8b8;
+      //  padding: 50px;
+            width: 150px;
             height: 200px;
+            margin: 20px;
             border: none !important;
+            &:active{
+                border: none;
+            }
+            
         }
         .active{
-            background-color: #e75b1e;
+
+            background-color: #e75b1e !important;
+           color: #fff;
         }
     }
     .xx{
@@ -51,11 +86,12 @@
             p{
                 font-weight: 400;
                 font-size: 15px;
-              text-align: left;
-               display: block;
-               color: #737373;
+            text-align: left;
+            display: block;
+            color: #737373;
                 
             }
         }
     }
 }
+ 
