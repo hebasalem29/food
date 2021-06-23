@@ -41,7 +41,7 @@
                     color: #fff;
                 }
             }
-            &:hover{
+            &:hover {
                 &:after{
                     content: '';
                     position: absolute;
@@ -61,4 +61,19 @@
 }
 .co{
     background-color: transparent;
+}
+.lo{
+    color: #e75b1e;
+    &:after{
+        content: '';
+        position: absolute;
+        border: 1px solid #e75b1e;
+        
+        width: 100%;
+        left: 0;
+        right: 0;
+        
+       top:30px;
+        
+    }
 }
