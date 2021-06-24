@@ -78,6 +78,17 @@ $(function()
 
             console.log($(window).scrollTop());
         }
+        if ($(window).scrollTop()>10)
+        {
+            $(".butfix").addClass("dis");
+            console.log("pla");
+        }
+       else if ($(window).scrollTop()<10)
+        {
+            $(".butfix").removeClass("dis");
+            console.log("pla");
+        }
+       
     })
 
     $('.owl-carousel').owlCarousel({
