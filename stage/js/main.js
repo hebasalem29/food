@@ -16,6 +16,8 @@ $(function()
         {
             $(".fr").siblings().children().removeClass("lo");
             $(".fr a").addClass("lo");
+            $(".fr").siblings().removeClass("lo1");
+            $(".fr ").addClass("lo1");
             console.log("pp");
             console.log($(".about").offset().top);
         }
@@ -24,6 +26,8 @@ $(function()
         {
             $(".sc").siblings().children().removeClass("lo");
             $(".sc a").addClass("lo");
+            $(".sc").siblings().removeClass("lo1");
+            $(".sc").addClass("lo1");
             console.log("pp");
             console.log($(".about").offset().top);
         }
@@ -31,6 +35,8 @@ $(function()
         {
             $(".th").siblings().children().removeClass("lo");
             $(".th a").addClass("lo");
+            $(".th").siblings().removeClass("lo1");
+            $(".th ").addClass("lo1");
             console.log("pp");
             console.log($(".about").offset().top);
         }
@@ -38,6 +44,8 @@ $(function()
         {
             $(".fo").siblings().children().removeClass("lo");
             $(".fo a").addClass("lo");
+            $(".fo").siblings().removeClass("lo1");
+            $(".fo ").addClass("lo1");
             console.log("pp");
             console.log($(".about").offset().top);
         }
@@ -45,6 +53,8 @@ $(function()
         {
             $(".fi").siblings().children().removeClass("lo");
             $(".fi a").addClass("lo");
+            $(".fi").siblings().removeClass("lo1");
+            $(".fi ").addClass("lo1");
             console.log("pp");
             console.log($(".about").offset().top);
         }
@@ -52,6 +62,8 @@ $(function()
         {
             $(".si").siblings().children().removeClass("lo");
             $(".si a").addClass("lo");
+            $(".si").siblings().removeClass("lo1");
+            $(".si ").addClass("lo1");
             console.log("pp");
             console.log($(".about").offset().top);
         }
@@ -59,6 +71,8 @@ $(function()
         {
             $(".se").siblings().children().removeClass("lo");
             $(".se a").addClass("lo");
+            $(".se").siblings().removeClass("lo1");
+            $(".se ").addClass("lo1");
             console.log("pp");
             console.log($(".about").offset().top);
         }
@@ -66,6 +80,8 @@ $(function()
         {
             $(".ei").siblings().children().removeClass("lo");
             $(".ei a").addClass("lo");
+            $(".ei").siblings().removeClass("lo1");
+            $(".ei ").addClass("lo1");
             console.log("pp");
             console.log($(".about").offset().top);
         }
@@ -73,6 +89,8 @@ $(function()
         {
             $(".nin").siblings().children().removeClass("lo");
             $(".nin a").addClass("lo");
+            $(".nin").siblings().removeClass("lo1");
+            $(".nin ").addClass("lo1");
             console.log("pp");
             console.log($(".contact").offset().top);
 
@@ -88,7 +106,12 @@ $(function()
             $(".butfix").removeClass("dis");
             console.log("pla");
         }
+      
        
+    })
+    $(".men").on('click',function()
+    {
+        $(".xx").toggleClass("dis1");
     })
 
     $('.owl-carousel').owlCarousel({

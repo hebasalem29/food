@@ -1,4 +1,51 @@
 .navbar{
+    .xx{
+        @media(min-width:992px)
+        {
+            display: none !important;
+        }
+        display: none;
+       // text-align: center;
+      position: fixed;
+      top:80px;
+      background-color: #202020;
+      width: 100%;
+        ul{
+           
+            
+            li{
+                margin: 30px!important;
+               // margin-bottom: 25px;
+                font-weight: bold;
+                display: inline-block;
+                
+                position: relative;
+                a{
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+                &:hover {
+                    border-bottom: 2px solid #fff;
+                  /*  &:after{
+                        content: '';
+                        position: absolute;
+                        border: 1px solid #fff;
+                        width: 100%;
+                        left: 0;
+                        right: 0;
+                        
+                       top:30px;
+                        
+                    }*/
+    
+                }
+               
+    
+            }
+        }
+
+    }
     position: fixed;
     width: 100%;
     z-index: 99999;
@@ -42,7 +89,8 @@
                 }
             }
             &:hover {
-                &:after{
+                border-bottom: 2px solid #fff;
+               /* &:after{
                     content: '';
                     position: absolute;
                     border: 1px solid #fff;
@@ -52,9 +100,10 @@
                     
                    top:30px;
                     
-                }
+                }*/
 
             }
+           
 
         }
     }
@@ -62,9 +111,14 @@
 .co{
     background-color: transparent;
 }
+.lo1{
+    border-bottom: 2px solid #e75b1e !important;
+
+}
 .lo{
-    color: #e75b1e;
-    &:after{
+    color: #e75b1e !important;
+    
+   /* &:after{
         content: '';
         position: absolute;
         border: 1px solid #e75b1e;
@@ -73,7 +127,9 @@
         left: 0;
         right: 0;
         
-       top:30px;
-        
-    }
+bottom: 0px;        
+    }*/
+}
+.dis1{
+    display: block !important;
 }

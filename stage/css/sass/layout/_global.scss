@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
     color:#fff;
+    &:hover{
+        color: #fff;
+    }
 }
 body{
     padding-bottom: 2000px;
