@@ -113,6 +113,36 @@ $(function()
     {
         $(".xx").toggleClass("dis1");
     })
+    
+    $(".set").on('click',function()
+    {
+        $(".colors").toggleClass("dis2");
+        $(".set").toggleClass("po1");
+    })
+    $(".yel").on('click',function()
+    {
+        $(".or1").addClass('ye1');
+
+
+    })
+    $(".green").on('click',function()
+    {
+        $(".or1").addClass('gr1');
+
+
+    })
+    $(".blue").on('click',function()
+    {
+        $(".or1").addClass('bl1');
+
+
+    })
+    $(".orange").on('click',function()
+    {
+        $(".or1").addClass('or1');
+
+
+    })
 
     $('.owl-carousel').owlCarousel({
         loop:true,

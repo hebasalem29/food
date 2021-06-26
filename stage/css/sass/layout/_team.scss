@@ -1,7 +1,7 @@
 .team{
     padding-top: 100px;
     h1{
-        color: #e75b1e;
+        color:  $orange-color;
         padding-bottom: 20px;
     }
     p{
@@ -50,7 +50,7 @@
             }
         }
         &:hover{
-            background-color: #e75b1e;
+            background-color:  $orange-color;
             h4,p{
                 color: #fff;
             }
@@ -67,7 +67,7 @@
     background-size: cover;
   //  padding-bottom: 300px;
     h4{
-        color: #e75b1e;
+        color:  $orange-color;
 
     }
    

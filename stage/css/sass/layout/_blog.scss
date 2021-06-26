@@ -6,7 +6,7 @@
         height: 50px;
         padding: 10px;
         text-align: center;
-        background-color: #e75b1e;
+        background-color:  $orange-color;
         color:#fff;
         margin: 0 auto !important;
         a{
@@ -14,7 +14,7 @@
         }
         &:hover{
             background-color: transparent;
-            border:1px solid #e75b1e;
+            border:1px solid  $orange-color;
         }
     }
     padding-bottom: 50px;

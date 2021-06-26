@@ -1,7 +1,7 @@
 .menu{
     padding-top: 100px;
     h1{
-        color: #e75b1e;
+        color:  $orange-color;
     }
     background-color: #f5f5f5;
     .fr{
@@ -63,7 +63,7 @@
         }
         .active{
 
-            background-color: #e75b1e !important;
+            background-color:  $orange-color!important;
            color: #fff;
         }
     }
@@ -82,7 +82,7 @@
         h5{
             margin-left: 30px;
             text-align: left;
-            color: #e75b1e;
+            color:  $orange-color;
             p{
                 font-weight: 400;
                 font-size: 15px;

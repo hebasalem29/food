@@ -105,6 +105,30 @@ body {
 * {
   transition: all .6s ease-in-out; }
 
+.or1 {
+  color: #e75b1e; }
+
+.or2 {
+  background-color: #e75b1e !important; }
+
+.bl1 {
+  color: #1E69B8 !important; }
+
+.bl2 {
+  background-color: #1E69B8 !important; }
+
+.gr1 {
+  color: #8dc63f !important; }
+
+.gr2 {
+  background-color: #8dc63f !important; }
+
+.ye1 {
+  color: #fdcb03 !important; }
+
+.ye2 {
+  background-color: #fdcb03 !important; }
+
 .header {
   background: url("../imgs/banner.jpg");
   padding-bottom: 300px;
@@ -133,7 +157,6 @@ body {
   background-color: #E6E6E6;
   padding-top: 100px; }
   .about h1 {
-    color: #e75b1e;
     padding-bottom: 10px;
     font-size: 60px; }
   .about h4 {
@@ -331,6 +354,9 @@ button.owl-dot.active{
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background-color: #e75b1e !important; }
+
+.or1 {
+  color: #e75b1e; }
 
 .menu {
   padding-top: 100px;
@@ -831,6 +857,54 @@ button.owl-dot.active{
 
 .dis {
   display: block !important; }
+
+.set {
+  position: fixed;
+  right: 0px;
+  top: 30%;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center; }
+  .set i {
+    color: #d1d1d1;
+    color: #fff;
+    padding: 12px;
+    padding-top: 7px;
+    top: 50px;
+    z-index: 9999; }
+
+.colors {
+  display: none;
+  position: fixed;
+  right: 0px;
+  color: #fff;
+  top: 30%;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .colors h4 {
+    padding-top: 10px; }
+  .colors ul li {
+    margin: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 40px;
+    border: 1px solid #fff; }
+  .colors ul .orange {
+    background-color: #e75b1e; }
+  .colors ul .green {
+    background-color: #8dc63f; }
+  .colors ul .yel {
+    background-color: #fdcb03; }
+  .colors ul .blue {
+    background-color: #1E69B8; }
+
+.dis2 {
+  display: block !important; }
+
+.po1 {
+  right: 132px !important; }
+
 
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
